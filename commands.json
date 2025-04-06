@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "description": "Starts the development server using Vite with Hot Module Replacement (HMR).",
+    "command": "vite"
+  },
+  "build": {
+    "description": "Creates an optimized production build of the application in the 'dist' directory using Vite.",
+    "command": "vite build"
+  },
+  "lint": {
+    "description": "Lints JavaScript and JSX files using ESLint to enforce code quality and find errors.",
+    "command": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "preview": {
+    "description": "Starts a local server to serve and preview the production build from the 'dist' directory.",
+    "command": "vite preview"
+  },
+  "test": {
+    "description": "Runs the unit tests defined in the project using the Vitest test runner.",
+    "command": "vitest"
+  },
+  "format": {
+    "description": "Formats all supported files in the project using Prettier, overwriting them with the formatted version.",
+    "command": "prettier --write ."
+  }
+}
